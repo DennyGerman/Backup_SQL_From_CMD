@@ -9,7 +9,7 @@ SET DB=nombre de la base de datos presente en la instancia (ejemplo: FreeBikes p
 SET LOGIN=usuario SQL (ejemplo: SA)
 SET PASSWORD=contraseña SQL
 
-Instala 7-Zip en la ubicación predeterminada propuesta por el instalador "7z2301-x64.exe", que estará en C:\Program Files\7-Zip.
+Instala 7-Zip en la ubicación predeterminada propuesta por el instalador C:\Program Files\7-Zip\
 https://www.7-zip.org/
 
 Crea dos tareas programadas en el Programador de tareas de Windows: una para ejecutar el archivo BackupDB.bat en el horario deseado y otra para ejecutar el archivo DelBackup.bat (que se encargará de eliminar las copias de seguridad más antiguas de 7 días) 20 minutos después.
